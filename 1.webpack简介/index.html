@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webpack简介</title>
+  <!-- less文件浏览器并不能识别，需要借助工具将less编译成css -->
+  <link rel="stylesheet" href="./index.less">
+</head>
+<body>
+  <h1 id="title">hello webpack：webpack是一个构建工具， 和静态模块打包工具。</br>
+    webpack包含了两部分功能：1.构建  2.打包</br>
+    1.构建：将less文件、js文件等进行编译转换成浏览器所能解析的文件</br>
+    2.打包：在一个文件中通常要引用很多资源，比如入口文件index.js会引入很多相关文件，webpack会生成一个依赖关系树，产生一个chunk。
+            对这个chunk中不同的资源进行不同的处理，这个处理过程叫打包。打包之后输出文件bundle.js
+  </h1>
+<!-- 浏览器不认识import语法，需要将import转换成ES5 -->
+  <script src="./index.js"></script>
+</body>
+</html>

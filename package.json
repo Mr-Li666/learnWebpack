@@ -1,0 +1,28 @@
+{
+  "name": "learn_webpack",
+  "version": "1.0.0",
+  "description": "webpack是一个用于js应用程序的静态模块打包工具，webpack在处理应用程序时，会在内部构建一个依赖图，此依赖图对应映射到项目所需的每个模块，并生成一个或多个bundle\r 在开始前你需要先理解一些核心概念：",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Li666/learnWebpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Li666/learnWebpack/issues"
+  },
+  "homepage": "https://github.com/Mr-Li666/learnWebpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
